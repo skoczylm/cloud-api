@@ -1,0 +1,43 @@
+{
+  "name": "cloud-project-api",
+  "version": "1.0.0",
+  "description": "This is readmy file",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "debug": "nodemon ./dist/index.js",
+    "test": "mocha --reporter spec --compilers ts:ts-node/register test/**/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://skoczylasmikolaj@gitlab.com/skoczylasmikolaj/cloud-project-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/skoczylasmikolaj/cloud-project-api/issues"
+  },
+  "homepage": "https://gitlab.com/skoczylasmikolaj/cloud-project-api#README",
+  "devDependencies": {
+    "@types/body-parser": "0.0.33",
+    "@types/chai": "^3.5.1",
+    "@types/chai-http": "0.0.29",
+    "@types/mocha": "^2.2.41",
+    "@types/morgan": "^1.7.32",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.6",
+    "mocha": "^3.3.0",
+    "nodemon": "^1.11.0",
+    "ts-node": "^3.0.2",
+    "typescript": "^2.2.2",
+    "webpack": "^2.4.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "morgan": "^1.8.1"
+  }
+}
